@@ -6,7 +6,7 @@ Projekt backendu CMS News Portal napisanego w ASP.NET Core 8, z wykorzystaniem w
 
 ### 1.1 Uruchomienie lokalne (bez Dockera)
 
-bash: <br/> a. git clone https://github.com/mateuszigbt/CMS.NewsPortal.git <br/> b. cd CMS.NewsPortal <br/> c. dotnet build CMS.NewsPortal.Api/CMS.NewsPortal.Api.csproj build <br/> d. dotnet run --project CMS.NewsPortal.Api
+bash: <br/> a. <code>git clone https://github.com/mateuszigbt/CMS.NewsPortal.git</code> <br/> b. <code>cd CMS.NewsPortal</code> <br/> c. <code>dotnet build CMS.NewsPortal.Api/CMS.NewsPortal.Api.csproj</code> <br/> d. <code>dotnet run --project CMS.NewsPortal.Api</code>
 
 <b>Uwaga:</b> Skrócona wersja tych komend znajduje się poniżej, w punkcie <b>4 – Komendy pomocnicze (Makefile)</b>. Umożliwia ona budowanie i uruchamianie aplikacji za pomocą poleceń: <code>make build</code> oraz <code>make run</code>.
 
@@ -105,19 +105,19 @@ CMS.NewsPortal.Test - Testy jednostkowe i integracyjne (xUnit)
 ## 4. Komendy pomocnicze (Makefile)
 
 ### 4.1 Budowanie
-make build
+<code>make build</code>
 
 ### 4.2 Testy
-make test
+<code>make test</code>
 
 ### 4.3 Uruchamianie Lokalne
-make run
+<code>make run</code>
 
 ### 4.4 Budowanie Dockera
-make docker-build
+<code>make docker-build</code>
 
 ### 4.5 Uruchamianie Dockera
-make docker-run
+<code>make docker-run</code>
 
 ## 5. Obraz Docker (Docker Hub)
 Obraz aplikacji dostępny publicznie na Docker Hub:

@@ -13,10 +13,10 @@ bash: <br/> a. <code>git clone https://github.com/mateuszigbt/CMS.NewsPortal.git
 ### 1.2 Uruchomienie przez dockera
 
 ### Budowanie obrazu
-docker build -f CMS.NewsPortal.Api/Dockerfile -t newsportal .
+<code>docker build -f CMS.NewsPortal.Api/Dockerfile -t newsportal .</code>
 
 ### Uruchamianie kontenera
-docker run -p 8080:8080 newsportal
+<code>docker run -p 8080:8080 newsportal</code>
 
 <b>Uwaga:</b> Skrócona wersja tych komend znajduje się poniżej, w punkcie <b>4 – Komendy pomocnicze (Makefile)</b>. Umożliwia ona budowanie i uruchamianie aplikacji za pomocą poleceń: <code>make docker-build</code> oraz <code>make docker-run</code>.
 
